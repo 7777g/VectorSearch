@@ -1,0 +1,13 @@
+/* This file loads Tailwind.
+   Tailwind gives us short class names, like "bg-black" (black background) or "text-white" (white text). */
+
+@import "tailwindcss";
+
+/* moving text band (used in Marquee.jsx) */
+@keyframes scroll-left {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.scroll-left {
+  animation: scroll-left 30s linear infinite;
+}
