@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+pyjwt
+bcrypt
+python-multipart
+pymupdf
+fastembed
+scikit-learn
+numpy
+qdrant-client
