@@ -3,7 +3,7 @@
 // "token" = a login ticket. The server gives it to us after login, and we show it with every next request.
 
 // Address of the FastAPI backend
-const BASE = "https://vectorsearch-1.onrender.com/";
+const BASE = "https://vectorsearch-1.onrender.com";
 
 // One function for all backend calls.
 // options: method, token, json (for JSON body), form (for FormData / login form)
